@@ -1,4 +1,4 @@
-package javaLearning;
+package packages;
 
 public class FirstClass {
 
