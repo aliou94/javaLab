@@ -17,15 +17,9 @@ public class arrayPractice {
 		System.out.println(result/numbers.size());
 	}
 	
-//	Using a while loop, print each character of the string ‘Hello World’
+
 	
-	
-static void greet() {
-		
-		String greet = "Hello world";
-		
-		System.out.println(greet);
-	}
+
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -33,8 +27,8 @@ static void greet() {
 		// declares an array of integers
 	
 		
-//		detAverage();
+		detAverage();
 		
-		greet();
+		
 
 }}
