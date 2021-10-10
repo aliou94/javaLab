@@ -71,8 +71,8 @@ public class Person1 implements Income {
 		System.out.println("Enter person name");
 		String name = myObj.next();
 //
-//		System.out.println("Enter person gender");
-//		char gender = myObj.next().charAt(0);
+		System.out.println("Enter person gender");
+		char gender = myObj.next().charAt(0);
 
 		System.out.println("Enter person matrimonial status");
 		String matStatus = myObj.next();
@@ -93,8 +93,8 @@ public class Person1 implements Income {
 		System.out.println(AHMED.getName(name));
 		System.out.println(AHMED.getNationality(nat));
 		System.out.println(AHMED.getMaritalStatus(matStatus));
-//		System.out.print(AHMED.getGender(gender));
-		
+		System.out.println(AHMED.getGender(gender));
+		System.out.println(organizationName);
 	
 		System.out.println(AHMED.saving(rate, pay));
 		System.out.println(AHMED.calculate(pay));
