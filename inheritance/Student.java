@@ -2,6 +2,7 @@ package inheritance;
 
 
 // incase of diff package (folder stctr) you will have to import the parnt form it's original pckg
+
 public class Student extends Person {
 
 	int stud_id;

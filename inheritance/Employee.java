@@ -1,12 +1,17 @@
 package inheritance;
 
+import java.util.Scanner;
+
 //import inheritance.Adresse.Address;
 
 public class Employee extends Person {
 
+	private static final char[] pgender = null;
 	int empID;
 	double empSalary;
 	double empBonus;
+	
+	// adress here refrences to the adresse class created in the same package
 	Adresse empAddress;
 
 	public Employee() {
@@ -16,11 +21,11 @@ public class Employee extends Person {
 	Employee(String name, int age, char gender, double empBonus, double empSalary, int empID) {
 
 		super(name, age, gender);
-
 		this.empID = empID;
 		this.empSalary = empSalary;
 		this.empBonus = empBonus;
-	}// end Employee
+	}
+	
 	
 
 	public void createAddress() {
@@ -45,16 +50,9 @@ public class Employee extends Person {
 		System.out.println(empAddress.city);
 		System.out.println(empAddress.state);
 		System.out.println(empAddress.zipcode);
-	}
-
-	public static void main(String[] args) {
 		
-		Employee e1 = new Employee("Vanessa", 99, 'f', 200.00, 50000.00, 001);
-		e1.display();
-		e1.empSalary = 1000000.00;
-		e1.empBonus = 100.00;
-		System.out.println(e1.calculate());
-
 	}
+
+
 
 }
